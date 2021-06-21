@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/misestilos.css">
+</head>
+
+<body>
+    <!-- Sección del encabezado -->
+    <header>
+        <img src="img/flexbox-ex1.png" alt="Imagen de logo" height="100" width="200">
+        <h1>Diseño de Sitios Web: Flexbox y Css Grid</h1>
+        <img src="img/css grid.jpg" alt="Imagen de logo" height="100" width="200">
+    </header>
+
+    <!-- Barra de menú horizontal -->
+    <nav>
+        <ul class="menu"> 
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="tema 1">tema 1</a></li>
+                    <li><a href="tema 2">tema 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown">
+                    <li><a href="recurso 1">recurso 1</a></li>
+                    <li><a href="recurso 2">recurso 2</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Aprendizaje</a>
+                <ul class="dropdown">
+                    <li><a href="#">prueba1</a></li>
+                    <li><a href="#">prueba2</a></li>
+                </ul>
+            </li>
+            <li><a href="Autor">Autor</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe 
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.unad.edu.co%2F&tabs=timeline&width=0&height=0&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <article>
+                <h3>FLEXBOX</h3>
+                <p>Hasta hace relativamente poco, podríamos incluso decir “todavía” si tu desarrollo requiere de una alta compatibilidad en versiones antiguas de navegadores, maquetar módulos adaptables para web tales como listados en filas de N bloques suponía crear una larga lista de estilos css que cambiaban según la resolución de los diferentes dispositivos. En ocasiones “flotábamos” los elementos y nos las veíamos con los márgenes laterales, en otras aplicábamos “inline-block” y utilizábamos alguna técnica extraña para no contar con la separación que se creaba entre capas por arte de magia, añadíamos una capa vacía al final del listado para poder justificar el conjunto, y un largo etcétera de desventajas que Flexbox viene a solucionar. El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación. Este artículo hace un repaso de las principales características de flexbox</p>
+            </article>
+            <article> <img src="img/flex.webp" alt="Imagen de logo" height="380" width="700">
+                <h3>¿Para que sirve?</h3>
+                <p>Flex es uno de los nuevos valores HTML5 para propiedad CSS display, que nos permite maquetar nuestras páginas web de una manera mucho más fácil de lo que se hacía con la forma tradicional, en la que utilizábamos propiedades como float o position, entre otras.
+                    Se llama Flex porque tenemos un contenedor, llamado contenedor Flex, que es el elemento que contiene la propiedad display:flex.
+                    Desde ese contenedor vamos a poder especificar la alineación de los elementos que hay dentro, el tamaño de los elementos que contienen y distribuir el espacio restante que hay entre los elementos del contenedor Flex, y todo esto en una sola dirección, ya sea una horizontal o vertical. Es decir, podemos distribuir los elementos que contiene la etiqueta sin poner nada dentro de esos elementos.
+                    </p>
+                    
+            </article> 
+           
+            <article><img src="img/flex-measure.jpg" alt="Imagen de logo" height="380" width="700">
+                <p>Flexbox es una mezcla de todos ellos en cuanto a cómo afecta a la disposición de una estructura de elementos contenidos en una capa padre o contenedor, y se define como “flex” en la propiedad “display” (display:flex). Podemos crear una estructura de elementos en línea similar a una tabla, o hacer que funcionen como un bloque y en orden inverso en la siguiente resolución, todo ello a la vez que se adapta automáticamente al tamaño que necesitamos, tanto en anchura como en altura. Sí, ¡¡también en altura!! </p>
+                
+
+            </article>
+
+            
+            
+            
+        </section>
+        
+    </div>
+    <!-- Pie de página -->
+    <footer >
+       <p> Copyleft miorganizacion.org / 21 de junio de 2021 <br>
+        Diseño, código HTML5 y programación. Hecho a mano usando herramientas de software libre.
+
+       
+       </p>
+    </footer>
+</body>
+
+</html>
+
